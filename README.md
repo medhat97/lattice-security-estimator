@@ -2,11 +2,13 @@
 
 A web tool for estimating the concrete security (λ, in bits) of lattice-based
 parameter sets — LWE, RLWE and MLWE — built on the
-[lattice-estimator](https://github.com/malb/lattice-estimator), plus the code
-and data of the accompanying paper:
+[lattice-estimator](https://github.com/malb/lattice-estimator), plus the
+experiment scripts and raw data of the accompanying paper:
 
 > **Moving Targets in Lattice Security Estimation: Version Drift and Search
-> Reliability, with an Open Web Tool** — LaTeX source in [paper/](paper/)
+> Reliability, with an Open Web Tool**
+
+The paper itself is not included in this repository.
 
 **Live tool:** <https://wejadstudio.com/estimator/>
 
@@ -22,7 +24,7 @@ The tool has two functions:
 ```
 backend/    FastAPI service; every estimate runs in a SageMath subprocess
 frontend/   React + TypeScript + Vite user interface
-paper/      the paper (LaTeX), its figures, raw data and experiment scripts
+paper/      experiment scripts and raw data of the paper
 ```
 
 ### Architecture
@@ -82,10 +84,10 @@ curl -s -X POST http://localhost:8000/estimate \
 
 Other endpoints: `POST /find-parameter`, `GET /presets`, `GET /health`.
 
-## Reproducing the paper
+## Reproducing the experiments
 
 All experiments were run with SageMath 10.5. Raw results are in
-[paper/data/](paper/data/); the figures and tables are generated from them.
+[paper/data/](paper/data/); the paper's figures and tables are generated from them.
 
 ```bash
 cd paper/experiments
@@ -106,12 +108,6 @@ resumable: rerunning it skips results already in `paper/data/`.
 `bisect_test.sh` is the helper used with `git bisect run` to find the two
 commits behind the version drift.
 
-To build the paper:
-
-```bash
-cd paper && latexmk -pdf main.tex
-```
-
 ## Modelling notes
 
 - MLWE of rank `k` is estimated as LWE of dimension `n·k`.
@@ -126,10 +122,6 @@ See the paper's limitations section for details.
 The code and data in this repository (`backend/`, `frontend/`,
 `paper/experiments/` and `paper/data/`) are released under the
 [MIT License](LICENSE).
-
-The paper itself (`paper/main.tex`, `paper/refs.bib` and
-`paper/figures/`) is **not** covered by the MIT License; all rights are
-reserved by the authors.
 
 lattice-estimator is not included in this repository: it is downloaded at
 build time and remains under its own license.

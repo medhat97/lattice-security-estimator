@@ -26,3 +26,7 @@ paper/experiments/versions/
 
 # the compiled paper is not published
 paper/main.pdf
+# the paper itself is kept locally, not published
+paper/main.tex
+paper/refs.bib
+paper/figures/
