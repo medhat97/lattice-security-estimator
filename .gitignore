@@ -23,3 +23,6 @@ paper/experiments/versions/
 *.fdb_latexmk
 *.out
 *.synctex.gz
+
+# the compiled paper is not published
+paper/main.pdf

@@ -6,7 +6,7 @@ parameter sets — LWE, RLWE and MLWE — built on the
 and data of the accompanying paper:
 
 > **Moving Targets in Lattice Security Estimation: Version Drift and Search
-> Reliability, with an Open Web Tool** — [paper/main.pdf](paper/main.pdf)
+> Reliability, with an Open Web Tool** — LaTeX source in [paper/](paper/)
 
 **Live tool:** <https://wejadstudio.com/estimator/>
 
@@ -127,7 +127,7 @@ The code and data in this repository (`backend/`, `frontend/`,
 `paper/experiments/` and `paper/data/`) are released under the
 [MIT License](LICENSE).
 
-The paper itself (`paper/main.tex`, `paper/main.pdf`, `paper/refs.bib` and
+The paper itself (`paper/main.tex`, `paper/refs.bib` and
 `paper/figures/`) is **not** covered by the MIT License; all rights are
 reserved by the authors.
 
