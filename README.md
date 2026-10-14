@@ -129,7 +129,7 @@ The code and data in this repository (`backend/`, `frontend/`,
 
 The paper itself (`paper/main.tex`, `paper/main.pdf`, `paper/refs.bib` and
 `paper/figures/`) is **not** covered by the MIT License; all rights are
-reserved by the author.
+reserved by the authors.
 
 lattice-estimator is not included in this repository: it is downloaded at
 build time and remains under its own license.
