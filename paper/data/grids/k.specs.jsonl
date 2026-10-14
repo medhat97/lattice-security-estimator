@@ -1,0 +1,16 @@
+{"key": "k=1", "x": 1, "n": 256, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=2", "x": 2, "n": 512, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=3", "x": 3, "n": 768, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=4", "x": 4, "n": 1024, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=5", "x": 5, "n": 1280, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=6", "x": 6, "n": 1536, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=7", "x": 7, "n": 1792, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=8", "x": 8, "n": 2048, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=9", "x": 9, "n": 2304, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=10", "x": 10, "n": 2560, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=11", "x": 11, "n": 2816, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=12", "x": 12, "n": 3072, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=13", "x": 13, "n": 3328, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=14", "x": 14, "n": 3584, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=15", "x": 15, "n": 3840, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=16", "x": 16, "n": 4096, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}

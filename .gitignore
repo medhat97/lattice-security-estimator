@@ -1,0 +1,25 @@
+# dependencies and builds
+node_modules/
+dist/
+dist-estimator/
+.venv/
+__pycache__/
+*.pyc
+
+# local configuration (may contain secrets)
+.env
+.claude/
+
+# lattice-estimator checkouts (recreate with paper/experiments/setup_versions.sh)
+paper/experiments/estimator-repo/
+paper/experiments/versions/
+
+# LaTeX build files
+*.aux
+*.log
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz

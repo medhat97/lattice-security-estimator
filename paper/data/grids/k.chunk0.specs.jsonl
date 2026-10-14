@@ -1,0 +1,3 @@
+{"key": "k=1", "x": 1, "n": 256, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=7", "x": 7, "n": 1792, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}
+{"key": "k=13", "x": 13, "n": 3328, "q": 3329, "xs": {"type": "cbd", "param": 2}, "xe": {"type": "cbd", "param": 2}, "m": null}

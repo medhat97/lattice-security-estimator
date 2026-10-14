@@ -1,0 +1,427 @@
+{
+ "summary": {
+  "ref:Frodo-640": {
+   "first": [
+    "4be104e",
+    167.32696778889948
+   ],
+   "last": [
+    "53da598",
+    162.88345583425993
+   ],
+   "min": 162.88345583425993,
+   "max": 167.32696778889948,
+   "range": 4.443511954639547,
+   "net": -4.443511954639547,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "primal_bdd",
+   "dominant_changes": 0,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.359262682146095
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "ref:Frodo-976": {
+   "first": [
+    "4be104e",
+    230.11411103947952
+   ],
+   "last": [
+    "53da598",
+    225.15496384269917
+   ],
+   "min": 225.15496384269917,
+   "max": 230.11411103947952,
+   "range": 4.95914719678035,
+   "net": -4.95914719678035,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "primal_bdd",
+   "dominant_changes": 0,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.916353595012907
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "ref:Kyber-1024": {
+   "first": [
+    "4be104e",
+    276.09535831811615
+   ],
+   "last": [
+    "53da598",
+    262.3356800074737
+   ],
+   "min": 262.3356800074737,
+   "max": 276.09535831811615,
+   "range": 13.759678310642471,
+   "net": -13.759678310642471,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "c2d5fe9",
+    "dfbc622",
+    -8.408390194336334
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "ref:Kyber-512": {
+   "first": [
+    "4be104e",
+    144.4655989334945
+   ],
+   "last": [
+    "53da598",
+    139.65604148085845
+   ],
+   "min": 139.19658424951362,
+   "max": 144.4655989334945,
+   "range": 5.269014683980885,
+   "net": -4.8095574526360565,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.147583689977296
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "ref:Kyber-768": {
+   "first": [
+    "4be104e",
+    205.7074492067219
+   ],
+   "last": [
+    "53da598",
+    196.36624335005874
+   ],
+   "min": 196.05914608375772,
+   "max": 205.7074492067219,
+   "range": 9.648303122964165,
+   "net": -9.341205856663152,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "c2d5fe9",
+    "dfbc622",
+    -4.9416956516165556
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "ref:NewHope-1024": {
+   "first": [
+    "4be104e",
+    280.1556068369274
+   ],
+   "last": [
+    "53da598",
+    274.74035734607924
+   ],
+   "min": 274.74035734607924,
+   "max": 280.1556068369274,
+   "range": 5.4152494908481685,
+   "net": -5.4152494908481685,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "primal_bdd",
+   "dominant_changes": 0,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -5.370411559111062
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "ref:NewHope-512": {
+   "first": [
+    "4be104e",
+    139.2526306930815
+   ],
+   "last": [
+    "53da598",
+    135.09937287999713
+   ],
+   "min": 135.09937287999713,
+   "max": 139.2526306930815,
+   "range": 4.153257813084366,
+   "net": -4.153257813084366,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "primal_bdd",
+   "dominant_changes": 0,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.110684368096116
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:Frodo-640": {
+   "first": [
+    "4be104e",
+    166.8274009312451
+   ],
+   "last": [
+    "53da598",
+    162.42901265514263
+   ],
+   "min": 162.42901265514263,
+   "max": 166.8274009312451,
+   "range": 4.39838827610248,
+   "net": -4.39838827610248,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "primal_bdd",
+   "dominant_changes": 0,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.352539312512107
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:Frodo-976": {
+   "first": [
+    "4be104e",
+    230.07025139806254
+   ],
+   "last": [
+    "53da598",
+    225.05118849193664
+   ],
+   "min": 225.05118849193664,
+   "max": 230.07025139806254,
+   "range": 5.019062906125896,
+   "net": -5.019062906125896,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "primal_bdd",
+   "dominant_changes": 0,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.903640297937756
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:Kyber-1024": {
+   "first": [
+    "4be104e",
+    276.09535831811615
+   ],
+   "last": [
+    "53da598",
+    262.3356800074737
+   ],
+   "min": 262.3356800074737,
+   "max": 276.09535831811615,
+   "range": 13.759678310642471,
+   "net": -13.759678310642471,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "c2d5fe9",
+    "dfbc622",
+    -8.408390194336334
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:Kyber-512": {
+   "first": [
+    "4be104e",
+    144.4655989334945
+   ],
+   "last": [
+    "53da598",
+    139.65604148085845
+   ],
+   "min": 139.19658424951362,
+   "max": 144.4655989334945,
+   "range": 5.269014683980885,
+   "net": -4.8095574526360565,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.147583689977296
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:Kyber-768": {
+   "first": [
+    "4be104e",
+    205.7074492067219
+   ],
+   "last": [
+    "53da598",
+    196.36624335005874
+   ],
+   "min": 196.05914608375772,
+   "max": 205.7074492067219,
+   "range": 9.648303122964165,
+   "net": -9.341205856663152,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "c2d5fe9",
+    "dfbc622",
+    -4.9416956516165556
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:NewHope-1024": {
+   "first": [
+    "4be104e",
+    267.3955190473016
+   ],
+   "last": [
+    "53da598",
+    251.51738572663683
+   ],
+   "min": 251.51738572663683,
+   "max": 267.3955190473016,
+   "range": 15.878133320664773,
+   "net": -15.878133320664773,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "c2d5fe9",
+    "dfbc622",
+    -10.2319894276755
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  },
+  "tool:NewHope-512": {
+   "first": [
+    "4be104e",
+    133.73717101133798
+   ],
+   "last": [
+    "53da598",
+    127.22514949560036
+   ],
+   "min": 127.22514949560036,
+   "max": 133.73717101133798,
+   "range": 6.512021515737615,
+   "net": -6.512021515737615,
+   "dominant_first": "primal_bdd",
+   "dominant_last": "dual_hybrid",
+   "dominant_changes": 1,
+   "largest_step": [
+    "4be104e",
+    "f9dc7c6",
+    -4.054091779027999
+   ],
+   "laptop_vs_deployed": 0.0,
+   "n_versions": 12
+  }
+ },
+ "tool_minus_ref": {
+  "Kyber-512": {
+   "min": 0.0,
+   "max": 0.0,
+   "at_deployed": 0.0
+  },
+  "Kyber-768": {
+   "min": 0.0,
+   "max": 0.0,
+   "at_deployed": 0.0
+  },
+  "Kyber-1024": {
+   "min": 0.0,
+   "max": 0.0,
+   "at_deployed": 0.0
+  },
+  "Frodo-640": {
+   "min": -0.49956685765437214,
+   "max": -0.45444317911730536,
+   "at_deployed": -0.45444317911730536
+  },
+  "Frodo-976": {
+   "min": -0.10377535076253253,
+   "max": -0.03114634434183472,
+   "at_deployed": -0.10377535076253253
+  },
+  "NewHope-512": {
+   "min": -7.890477316576451,
+   "max": -5.458867092675405,
+   "at_deployed": -7.874223384396771
+  },
+  "NewHope-1024": {
+   "min": -23.229957795329796,
+   "max": -12.628039131349396,
+   "at_deployed": -23.222971619442404
+  }
+ },
+ "versions": [
+  [
+   "2021-12-23",
+   "4be104e"
+  ],
+  [
+   "2022-06-30",
+   "f9dc7c6"
+  ],
+  [
+   "2022-12-29",
+   "6a96c61"
+  ],
+  [
+   "2023-05-08",
+   "cf36315"
+  ],
+  [
+   "2023-12-29",
+   "c2d5fe9"
+  ],
+  [
+   "2024-06-20",
+   "dfbc622"
+  ],
+  [
+   "2024-12-18",
+   "374f073"
+  ],
+  [
+   "2025-04-17",
+   "5ba00f5"
+  ],
+  [
+   "2025-11-12",
+   "a2be406"
+  ],
+  [
+   "2026-03-23",
+   "a51a410"
+  ],
+  [
+   "2026-06-27",
+   "3e48ef4"
+  ],
+  [
+   "2026-08-19",
+   "53da598"
+  ]
+ ]
+}
