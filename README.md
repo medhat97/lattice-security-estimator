@@ -120,3 +120,16 @@ cd paper && latexmk -pdf main.tex
 - Only the three attacks above are run; the estimator implements more.
 
 See the paper's limitations section for details.
+
+## License
+
+The code and data in this repository (`backend/`, `frontend/`,
+`paper/experiments/` and `paper/data/`) are released under the
+[MIT License](LICENSE).
+
+The paper itself (`paper/main.tex`, `paper/main.pdf`, `paper/refs.bib` and
+`paper/figures/`) is **not** covered by the MIT License; all rights are
+reserved by the author.
+
+lattice-estimator is not included in this repository: it is downloaded at
+build time and remains under its own license.
